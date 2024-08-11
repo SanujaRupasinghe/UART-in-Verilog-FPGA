@@ -1,0 +1,60 @@
+|transmitter_tb
+
+
+|transmitter_tb|transmitter:uut
+data_in[0] => data.DATAB
+data_in[1] => data.DATAB
+data_in[2] => data.DATAB
+data_in[3] => data.DATAB
+data_in[4] => data.DATAB
+data_in[5] => data.DATAB
+data_in[6] => data.DATAB
+data_in[7] => data.DATAB
+wr_en => state.OUTPUTSELECT
+wr_en => state.OUTPUTSELECT
+wr_en => state.OUTPUTSELECT
+wr_en => state.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => data.OUTPUTSELECT
+wr_en => bit_pos.OUTPUTSELECT
+wr_en => bit_pos.OUTPUTSELECT
+wr_en => bit_pos.OUTPUTSELECT
+clk_50m => Tx~reg0.CLK
+clk_50m => bit_pos[0].CLK
+clk_50m => bit_pos[1].CLK
+clk_50m => bit_pos[2].CLK
+clk_50m => data[0].CLK
+clk_50m => data[1].CLK
+clk_50m => data[2].CLK
+clk_50m => data[3].CLK
+clk_50m => data[4].CLK
+clk_50m => data[5].CLK
+clk_50m => data[6].CLK
+clk_50m => data[7].CLK
+clk_50m => state~4.DATAIN
+clken => Tx.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => bit_pos.OUTPUTSELECT
+clken => bit_pos.OUTPUTSELECT
+clken => bit_pos.OUTPUTSELECT
+clken => Tx.OUTPUTSELECT
+clken => Tx.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+clken => state.OUTPUTSELECT
+Tx <= Tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Tx_busy <= Tx_busy.DB_MAX_OUTPUT_PORT_TYPE
+
+

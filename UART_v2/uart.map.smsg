@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ROM.v(67): always construct contains both blocking and non-blocking assignments File: C:/Users/HP/Downloads/UART/verilog_fpga_uart-Kithmin aiya/verilog_fpga_uart-master/ROM.v Line: 67

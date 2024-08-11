@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/UARTandMatMUL/UART {D:/UARTandMatMUL/UART/uart.v}
+vlog -vlog01compat -work work +incdir+D:/UARTandMatMUL/UART {D:/UARTandMatMUL/UART/transmitter.v}
+vlog -vlog01compat -work work +incdir+D:/UARTandMatMUL/UART {D:/UARTandMatMUL/UART/testbench.v}
+vlog -vlog01compat -work work +incdir+D:/UARTandMatMUL/UART {D:/UARTandMatMUL/UART/receiver.v}
+vlog -vlog01compat -work work +incdir+D:/UARTandMatMUL/UART {D:/UARTandMatMUL/UART/buadrate.v}
+
