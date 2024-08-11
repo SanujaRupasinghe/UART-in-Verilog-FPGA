@@ -7,7 +7,7 @@ This project demonstrates a UART (Universal Asynchronous Receiver/Transmitter) t
 ## Repository Structure
 
 ### Version 2
-- **baudrate.v**: Baudrate generator implemented.
+- **baudrate.v**: Baudrate generator implemented. 115200
 - **baudrate_tb.v**: Testbench for the baudrate generator.
 - **receiver.v**: UART receiver implemented.
 - **transmitter.v**: UART transmitter implemented.
@@ -15,7 +15,7 @@ This project demonstrates a UART (Universal Asynchronous Receiver/Transmitter) t
 - **uart.v**: Complete UART implementation.
 
 ### Version 1
-- **baudrate.v**: Baudrate generator implemented.
+- **baudrate.v**: Baudrate generator implemented. 115200
 - **baudrate_tb.v**: Testbench for the baudrate generator.
 - **receiver.v**: UART receiver implemented.
 - **transmitter.v**: UART transmitter implemented.
