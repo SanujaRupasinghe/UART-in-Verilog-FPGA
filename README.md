@@ -6,13 +6,6 @@ This project demonstrates a UART (Universal Asynchronous Receiver/Transmitter) t
 
 ## Repository Structure
 
-### Version 2
-- **baudrate.v**: Baudrate generator implemented. 115200
-- **baudrate_tb.v**: Testbench for the baudrate generator.
-- **receiver.v**: UART receiver implemented.
-- **transmitter.v**: UART transmitter implemented.
-- **ROM.v**: ROM module to load bytes for transmission.
-- **uart.v**: Complete UART implementation.
 
 ### Version 1
 - **baudrate.v**: Baudrate generator implemented. 115200
@@ -22,6 +15,16 @@ This project demonstrates a UART (Universal Asynchronous Receiver/Transmitter) t
 - **transmitter_tb.v**: Testbench for the UART transmitter.
 - **uart.v**: Complete UART implementation.
 - **testbench.v**: Testbench for the entire UART system.
+
+  
+### Version 2
+- **baudrate.v**: Baudrate generator implemented. 115200
+- **baudrate_tb.v**: Testbench for the baudrate generator.
+- **receiver.v**: UART receiver implemented.
+- **transmitter.v**: UART transmitter implemented.
+- **ROM.v**: ROM module to load bytes for transmission.
+- **uart.v**: Complete UART implementation.
+
 
 ## ROM Module Details - `ROM.v`
 The ROM is structured with 32 8-bit registers, initialized with predefined values. The address is internally generated from 0 to 31, looping iteratively. Data is loaded on the negative edge of the `load_en` signal. For a given 5-bit address, when `load_en` is triggered (typically by pressing a switch), 8-bit data is loaded to the output.
