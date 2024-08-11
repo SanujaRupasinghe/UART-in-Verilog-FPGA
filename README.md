@@ -35,14 +35,14 @@ The transmitter is designed to send data when `wr_en` is low and continues until
 ## Images
 The following images provide visual insights into the project:
 
-1. **Baudrate Test**
+1. **Baudrate Test From Version 1 and 2**
    ![Baudrate_test](https://github.com/user-attachments/assets/1bbe12f3-7955-4c15-821d-ea19ce19437b)
 
-2. **UART Test**
+2. **UART Test From Version 1**
    ![Uart_test](https://github.com/user-attachments/assets/2a8fbac3-d2f8-4ef8-a38a-793ee9eeba19)
 
-3. **Implementation 1**
+3. **Implementation**
    ![WhatsApp Image 2024-08-11 at 13 32 30_d8afc58](https://github.com/user-attachments/assets/d1a40bde-2922-4678-828b-6651c504705e)
 
-4. **Implementation 2**
+4. **Implementation**
    ![WhatsApp Image 2024-08-11 at 13 32 30_af6988fb](https://github.com/user-attachments/assets/676ff2f5-8fa4-464b-b60c-3fea7456ca9e)
